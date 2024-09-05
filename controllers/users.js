@@ -3,7 +3,7 @@ const path = require('path')
 // Read the html file
 // const index = fs.readFileSync("index.html", "utf-8");
 // Read the json file and convert it into strings
-const datas = JSON.parse(fs.readFileSync(path.resolve(__dirname,"data.json"), "utf-8"));
+const datas = JSON.parse(fs.readFileSync(path.resolve(__dirname,"../data.json"), "utf-8"));
 //get the product 
 const users= datas.users;
 
